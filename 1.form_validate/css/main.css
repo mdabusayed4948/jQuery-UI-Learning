@@ -1,0 +1,18 @@
+*{ margin: 0; padding: 0; outline: 0 }
+body{ font-family: arial; font-size: 18px; color: #444; line-height: 25px }
+.content{ background: #f0f0f0; width: 900px; margin: 0 auto; }
+.maincontent{ background: #fff; margin: 10px; min-height: 500px; padding: 5px 10px;}
+.header, .footer{ text-align: center; background: #ddd; padding: 10px; }
+.para{ height: 300px; width: 830px; background: #F0F0F0; padding: 15px; border: 1px solid gray; margin-top: 10px; position: relative; }
+.inside{ position: absolute; height: 150px; width: 150px;background: #000; padding: 5px; border: 1px solid gray; border-radius: 50% }
+.text {
+border: 1px solid #999;
+  border-radius: 5px;
+  color: red;
+  float: right;
+  padding: 5px;
+}
+.bg{ background: #000; color: #fff }
+input[type="text"],input[type="password"]{ width: 238px; padding: 5px; } select{font-size: 18px; padding: 2px 5px; width: 250px;}
+.error_form{ color: red; font-size: 15px; }
+#myform{ border:1px solid #fff; padding: 10px;  }
